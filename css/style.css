@@ -1,0 +1,55 @@
+body {
+    font-family: consolas;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url('https://cdn.discordapp.com/attachments/809715544453808128/809715595582898196/tlo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#text {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 48px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+
+
+#text2 {
+    position: relative;
+    display: inline-block;
+    padding: 8px 23px;
+    color: #000000;
+    background: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+#text2:hover {
+    position: relative;
+    display: inline-block;
+    padding: 8px 30px;
+    color: #ffffff;
+    background: #7289d9;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-weight: bold;
+}
