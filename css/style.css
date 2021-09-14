@@ -1,55 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 body {
-    font-family: consolas;
+    background-color: #3b3b3b;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    background-image: url('https://cdn.discordapp.com/attachments/809715544453808128/809715595582898196/tlo.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
 }
-#text {
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn
+{
+    position: relative;
+    padding: 10px 30px;
+    border: 2px solid #ffff;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.btn:hover
+{
+    color:black;
+}
+
+.btn span
+{
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #ffffff;
+    transition: width 0.6s, height 0.6s;
+    z-index: -1;
+}
+
+.btn:hover span
+{
+    width: 400px;
+    height: 400px;
+}
+
+.bar 
+{
+    position: relative;
+    padding: 0px 80px;
+    border: 1px solid #ffff;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.PAVI
+{
     position: relative;
     display: inline-block;
-    padding: 15px 30px;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 4px;
     text-decoration: none;
-    font-size: 48px;
+    color: #ffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
     overflow: hidden;
-    transition: 0.2s;
-    font-weight: bold;
+    font-size: 30px;
 }
 
 
-
-#text2 {
-    position: relative;
-    display: inline-block;
-    padding: 8px 23px;
-    color: #000000;
-    background: white;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 20px;
-    overflow: hidden;
-    transition: 0.2s;
-    font-weight: bold;
-}
-
-#text2:hover {
-    position: relative;
-    display: inline-block;
-    padding: 8px 30px;
-    color: #ffffff;
-    background: #7289d9;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 20px;
-    overflow: hidden;
-    transition: 0.2s;
-    font-weight: bold;
-}
