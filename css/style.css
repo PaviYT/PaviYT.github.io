@@ -7,6 +7,10 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    background-image: url('https://media.discordapp.net/attachments/809715544453808128/887360565410955274/pavi-wallpaper.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -22,6 +26,7 @@ body {
 {
     position: relative;
     padding: 10px 30px;
+    width: 160px;
     border: 2px solid #ffff;
     margin: 10px;
     display: inline-block;
@@ -85,4 +90,24 @@ body {
     font-size: 30px;
 }
 
+.box
+{
+    background-color: #3b3b3b;
+    position: relative;
+    padding: 30px 30px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    opacity: 80%;
+}
 
