@@ -1,45 +1,91 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
     <link rel="stylesheet" href="css/style.css">
+
     <title>PAVI</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="img/logo.png">
 
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
     <meta property="og:type" content="PAVI" />
+
     <meta content="#403c3c" data-react-helmet="true" name="theme-color" />
+
     <meta name="twitter:card" content="https://cdn.discordapp.com/attachments/809715544453808128/887373663706431518/banner.png">
+
     
+
     <link rel="shortcut icon" href="img/logo.png">
 
 </head>
+
 <body>
-    <div class="box">
-    <a class="PAVI">PAVI</a>
-    <a class="bar"></a>
-    <center><a href="https://www.youtube.com/c/PAVIDesign" class="btn"><span></span>YouTube</a></center>
-    <center><a href="https://www.instagram.com/pavi_design/" class="btn"><span></span>Instagram</a></center>
-    <center><a href="https://pavi.pb.design/" class="btn"><span></span>Portfolio</a></center>
-    </div>
+
+    <div id="content">
+
+        <div id="header">
+
+            <a class="PAVI animated bounceInDown">PAVI</a>
+
+        </div>
+
+        <div class="box animated bounceInLeft">
+
+        
+
+         <a href="https://www.youtube.com/c/PAVIDesign"class="option"><span></span>YouTube</a>
+
+         <a href="https://www.instagram.com/pavi_design/"class="option"><span></span>Instagram</a>
+
+         <a href="https://pavi.pb.design/"class="option"><span></span>Portfolio</a>
+
     
+
+    </div>
+
+ </div>    
+
+    
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     </script>
+
     <script>
+
         $(document).ready(function(e){
+
             $('.btn').on('mouseenter', function(e){
+
                 x = e.pageX - $(this).offset().left;
+
                 y = e.pageY - $(this).offset().top;
+
                 $(this).find('span').css({top:y, left:x})
+
             })
+
             $('.btn').on('mouseout', function(e){
+
                 x = e.pageX - $(this).offset().left;
+
                 y = e.pageY - $(this).offset().top;
+
                 $(this).find('span').css({top:y, left:x})
+
             })
+
         })
+
     </script>
 
 </body>
+
 </html>
